@@ -13,7 +13,7 @@ void setup()
 {
   lcd.init();  
   lcd.backlight();
-  pinMode(LDR INPUT);
+  pinMode(LDR, INPUT);
   pinMode(RAIN, INPUT);
   pinMode(BUZZER,OUTPUT);
   dht.begin();
